@@ -3,6 +3,7 @@ import streamlit as st
 from langchain_community.llms import ollama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_ollama import ChatOllama
 
 #Prompt Template
 prompt=ChatPromptTemplate.from_messages(
